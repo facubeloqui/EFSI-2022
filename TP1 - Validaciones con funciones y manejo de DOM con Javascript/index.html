@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <form id="formulario">
+                <div class="col-md-12 col-12">
+                    <label for="" class="mb-4 mt-4">Ingrese Nota de EFSI</label>
+                    <input type="number" class="form-control" name="efsi" id="efsi">
+                </div>
+                <div class="col-md-12 col-12">
+                    <label for="" class="mt-4 mb-4">Ingrese la Nota de Lengua</label>
+                    <input type="Number" class="form-control" name="lengua" id="lengua">
+                </div>
+                <div class="col-md-12 col-12">
+                    <label for="" class="mt-4 mb-4">Ingrese la Nota de Matemática</label>
+                    <input type="Number" class="form-control mb-5" name="matematica" id="matematica">
+                </div>
+                <div class="col-md-12 col-12">
+                    <div class="col-md-12 col-12">
+                        <p id="promedio_total"></p>
+                        <div >
+                            <img src="logo-ort.jfif" id="gif" width="300px" alt="" srcset="">
+                        </div>
+                        <p id="nota_mas_alta" class="mt-3"></p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-12">
+                    <input type="submit" class="boton-1" id="enviar" value="Calcular Promedio">
+                    <input type="submit" class="boton-2" id="promedio" value="Calcular Nota Máxima">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
