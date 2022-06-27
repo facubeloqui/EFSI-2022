@@ -1,0 +1,238 @@
+body {
+
+    background-color: #0f171e;
+    width: 100%;
+}
+
+.bg-custom {
+
+    background-color: #19232e;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.bg-custom2 {
+
+    background-color: cadetblue;
+    color: white;
+
+}
+
+.iniciarSesionColor {
+
+    color: white;
+
+}
+
+.nav-link {
+
+    color: white;
+    padding: 2vh;
+
+}
+
+.btn-outline-custom {
+
+    color: whitesmoke;
+
+}
+
+.buscar-custom {
+
+    background-color: #19232e;
+
+}
+
+.footer-dark {
+    padding: 0% 0;
+    color: #f0f9ff;
+    background-color: #213345;
+    bottom: 0;
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 0%;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 100%;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+
+.footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+
+.footer-dark .item.text {
+    margin-bottom: 0%;
+}
+
+
+.footer-dark .item.text {
+    margin-bottom: 0;
+}
+
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    opacity: 0.3;
+    font-size: 100%;
+}
+
+.prime {
+    align-items: center;
+    background-position: center center;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+.colorDeTexto {
+    color: dodgerblue;
+}
+
+.titulosCategorias {
+    color: white;
+    margin-left: 2%;
+    font-size: larger;
+}
+
+.imagenCarrousel {
+
+    width: 200px;
+    height: 300px;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin-top: 3%;
+    color: white;
+}
+
+.inputs input {
+    padding-left: 0%;
+    width: 100%;
+    margin: 5% 0 18% 0;
+    padding: 1%;
+    border: 0px;
+    border-bottom: 2px solid white;
+    color: white;
+    outline: none;
+    background-color: transparent;
+}
+
+
+.inputs select {
+
+    padding-left: 100px;
+    width: 300px;
+    margin: 10px 0 50px 0;
+    padding: 10px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: #0f171e;
+
+}
+
+.enviar input {
+
+    padding-left: 100px;
+    width: 300px;
+    margin: 10px 0 50px 0;
+    padding: 10px;
+    border: 0px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+
+
+}
+
+.card-body {
+
+    background-color: #426385;
+    color: white;
+}
+
+.card-body p p {
+
+    color: white;
+}
+
+.bg-custom_5 {
+
+    background-color: black;
+
+}
+
+.img-soto {
+
+    width: fit-content;
+}
+
+.img-soto img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion {
+
+    color: white;
+
+}
+
+.descripcion ul li {
+
+    list-style-type: none;
+
+}
+
+.col-3 float-left{
+    border-radius: 10px;
+}
+
+.carousel-inner w-100{
+    border-radius: 10px;
+}
+
+.p-3{
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: auto;
+}
+
